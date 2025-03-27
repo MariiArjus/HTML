@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= device-width, initial-scale = 1.0">
+    <title>Vormide loomine</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Vormide loomine</h1>
+    <table>
+        <tr>
+            <td>
+                Kasutajanimi:
+            </td>
+            <td>
+                <input type="text" placeholder="max pikus 6" maxlength="6">
+                
+            </td>
+        </tr>
+
+    <tr>
+        <td>
+            Kursus:
+        </td>
+        <td>
+            <input type="text" placeholder="max pikus 3" maxlength="3">
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <label>Osakonna number: </label>
+        </td>
+        <td>
+            <input type="number" value="1" min="1" max="5" step="0.5">
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            Parool:
+        </td>
+        <td>
+            <input type="text">
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            Vali teenus:
+        </td>
+        <td>
+            <select>
+                <option value="pun">Odav 0,59€</option>
+                <option value="sin">Keskmine 1,59€</option>
+                <option value="kol">Kallis 2,59€</option>
+              </select> 
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            Roll:
+        </td>
+        <td>
+            <input type="radio" name="varv" value="pun">Admin<br>
+            <input type="radio" name="varv" value="sin">Moderaator<br>
+            <input type="radio" name="varv" value="kol">User<br>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            Nõustun tingimustega:
+         </td>
+        <td>
+            <input type="checkbox">
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            Enesetutvustus:
+        </td>
+        <td>
+            <textarea rows="7" cols="17"></textarea><br>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <input type="submit" value="Tühjenda väljad">
+        </td>
+        <td>
+            <input type="submit" value="Saada">
+        </td>
+    </tr>
+</table>
